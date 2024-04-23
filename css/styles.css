@@ -1,112 +1,158 @@
 body {
     font-family: "Roboto", sans-serif;
-    color: #000000;
+    color: #434455;
+    background-color: #FFFFFF;
     font-size: 16px;
     line-height: 1.5;
 }
 
-.text {
-    font-size: 16px;
+.logo-nav a {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
 }
-.page-nav .link {
-    font-weight: 500;
+
+
+
+.page-nav{
+        font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
-    color: #2e2f42;
-    background: #fff;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
 }
-.text-address {font-weight: 400;
+.page-nav:hover {
+    color: #404bbf
+}
+
+.text-address {
+    font-style: normal;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    background: #fff;
 }
-.section-hero {
-    font-weight: 700;
-        font-size: 56px;
-        line-height: 1.07143;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #fff;
-        background: #2e2f42;
+.text-address:hover {
+    color: #404bbf;
 }
-.button {
-    color:#FFFFFF;
-    background: #4d5ae5;
-    cursor:pointer;
+.text-address:active {
+    color: #404bbf;
+}
 
+.section-hero {
+        background-color: #2e2f42;
 }
-.section-advantages {
-    color: #000000;
+.section-hero h1 {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+letter-spacing: 0.02em;
+color: #ffffff;
 }
-.h3 {
+.section-hero button {
+    background-color: #4D5AE5;
     font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor:pointer;
 }
-.p {
-    font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
+.section-hero button:hover {
+    background-color: #404BBF;
 }
-.section-team 
-.h2 {
-    font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11111;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #2e2f42;
+.section-hero button:active {
+    background-color: #404BBF;
 }
-.h3 {
-    font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #2e2f42;
-}
-.p {
-    font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #434455;
-}
-.section-portfolio {
-    font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11111;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #2e2f42;
-}
-.h2 {
+
+.section-advantages  h3 {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.p{
-    font-weight: 400;
-        font-size: 16px;
+
+.section-advantages p {
+           font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
 }
-.footer{
-    background: #2e2f42;
+.section-team {
+    background-color: #F4F4FD
 }
-.p {
-    font-weight: 400;
+
+.section-team h2 {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+.section-team ul {
+    background-color: #FFFFFF;
+}
+
+.section-team h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.section-team p {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #f4f4fd;}
+    color: #434455;
+}
+
+.section-portfolio h2 {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+.section-portfolio h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.section-portfolio p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.footer{
+    background: #2e2f42;
+}
+.footer a {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.studio {
+    color: #2e2f42;
+}
+.footer p {
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+}
