@@ -6,7 +6,7 @@ body {
     line-height: 1.5;
 }
 
-.logo a {
+.logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -16,7 +16,7 @@ body {
     color: #4d5ae5;
 }
 
-.logo spain {
+.logo span {
     color: #2e2f42;
 }
 
@@ -142,7 +142,7 @@ color: #ffffff;
 .footer{
     background: #2e2f42;
 }
-.logo a {
+.logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -152,7 +152,7 @@ color: #ffffff;
     color: #4d5ae5;
 }
 
-.logo spain {
+.logo span {
     color: #2e2f42;
 }
 
