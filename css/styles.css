@@ -21,18 +21,21 @@ body {
 }
 
 
-.page-nav ul {
+.studio {
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2e2f42;
 }
-.page-nav:hover ul {
+.studio:hover {
+    color: #404bbf
+}
+.studio:focus {
     color: #404bbf
 }
 
-.text-address ul {
+.text-address {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -40,10 +43,10 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
 }
-.text-address:hover ul {
+.text-address:hover {
     color: #404bbf;
 }
-.text-address:active ul {
+.text-address:focus {
     color: #404bbf;
 }
 
