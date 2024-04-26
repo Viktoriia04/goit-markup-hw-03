@@ -90,7 +90,7 @@ color: #ffffff;
         letter-spacing: 0.02em;
         color: #434455;
 }
-.section-team  section {
+.section-team {
     background-color: #F4F4FD;
 }
 
@@ -101,9 +101,6 @@ color: #ffffff;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-}
-.section-team {
-    background-color: #FFFFFF;
 }
 
 .section-team h3 {
