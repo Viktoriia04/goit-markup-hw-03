@@ -91,7 +91,7 @@ color: #ffffff;
         color: #434455;
 }
 .section-team {
-    background-color: #F4F4FD
+    background-color: #F4F4FD;
 }
 
 .section-team h2 {
@@ -118,9 +118,6 @@ color: #ffffff;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-}
-.section-portfolio section {
-    background-color: #F4F4FD;
 }
 
 .section-portfolio h2 {
