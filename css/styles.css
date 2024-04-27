@@ -11,10 +11,10 @@ body {
 .page-nav {
     list-style-type: none;
 }
-.address.text-address a {
+.text-address a {
     text-decoration: none;
 }
-.address.text-address ul {
+.text-address ul {
     list-style-type: none;
 }
 .logo {
