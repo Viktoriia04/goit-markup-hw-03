@@ -5,7 +5,18 @@ body {
     font-size: 16px;
     line-height: 1.5;
 }
-
+.page-nav a {
+    text-decoration: none;
+}
+.page-nav {
+    list-style-type: none;
+}
+.address.text-address a {
+    text-decoration: none;
+}
+.address.text-address ul {
+    list-style-type: none;
+}
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
