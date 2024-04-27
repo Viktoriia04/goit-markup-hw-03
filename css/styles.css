@@ -14,7 +14,7 @@ body {
 .text-address a {
     text-decoration: none;
 }
-.text-address  {
+.text-address ul {
     list-style-type: none;
 }
 .logo {
