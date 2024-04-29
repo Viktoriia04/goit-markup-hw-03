@@ -5,6 +5,16 @@ body {
     font-size: 16px;
     line-height: 1.5;
 }
+
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+
 .page-nav a {
     text-decoration: none;
 }
@@ -25,6 +35,11 @@ ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: row;
+        gap: 0px;
 }
 
 .logo span {
@@ -79,6 +94,17 @@ color: #ffffff;
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor:pointer;
+    display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: row;
+        gap: 10px;
+        border-radius: 4px;
+            padding: 16px 32px;
+            width: 169px;
+            height: 56px;
+            box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+                background: #4d5ae5;
 }
 .btn:hover {
     background-color: #404BBF;
