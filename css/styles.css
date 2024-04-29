@@ -19,8 +19,8 @@ body {
     margin-right: auto;
 }
 ul {
-    margin: 0;
-    padding-left: 0;
+    margin: auto;
+    padding-left: 15px;
 }
 img {
     display: block;
@@ -52,6 +52,8 @@ ul {
         justify-content: flex-start;
         flex-direction: row;
         gap: 0px;
+        width: 115px;
+       height: 24px;
 }
 
 .logo span {
