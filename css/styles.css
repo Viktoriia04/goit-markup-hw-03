@@ -87,8 +87,8 @@ p {
 }
 
 .address-link {
-    display: block;
-    padding: 24px;
+  display: block;
+  padding: 24px;
   font-style: normal;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -96,7 +96,6 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-
 }
 .address-link:hover,
 .address-link:focus {
@@ -105,7 +104,10 @@ p {
 
 .hero {
   background: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
+
 .hero h1 {
   font-weight: 700;
   font-size: 56px;
@@ -113,8 +115,24 @@ p {
   text-align: center;
   letter-spacing: 0.02em;
   color: #fff;
+  margin-left: auto;
+  margin-right: auto;
 }
-.hero button {
+
+.hero-button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  margin-left: auto;
+  margin-right: auto;
+  white-space: nowrap;
+}
+
+.hero-button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -124,8 +142,8 @@ p {
   background: #4d5ae5;
   cursor: pointer;
 }
-.hero button:hover,
-.hero button:focus {
+.hero-button:hover,
+.hero-button:focus {
   background: #404bbf;
 }
 
