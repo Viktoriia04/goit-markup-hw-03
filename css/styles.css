@@ -108,7 +108,7 @@ p {
   padding: 188px 0;
 }
 
-.hero-h1 {
+.hero-h {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -137,6 +137,7 @@ p {
   height: 56px;
   min-width: 169px;
   margin-top: 48px;
+  border: none;
 }
 
 .hero-button:hover,
@@ -166,7 +167,7 @@ padding: 120px 0;
 .adventages-item {
   width: calc((100% - 72px) / 4);
 }
-.adventages-h3 {
+.adventages-h {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
