@@ -185,8 +185,9 @@ padding: 120px 0;
 }
 .team-section {
   background: #f4f4fd;
+  
 }
-.team-section h2 {
+.team-h2 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
