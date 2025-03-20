@@ -3,6 +3,7 @@
   color: #434455;
   background-color: #fff;
 }
+
 /* reset */
 a {
   text-decoration: none;
@@ -105,10 +106,10 @@ p {
 .hero {
   background: #2e2f42;
   padding-top: 188px;
-  padding-bottom: 188px;
+  padding: 188px 0;
 }
 
-.hero h1 {
+.hero-h1 {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -117,19 +118,18 @@ p {
   color: #fff;
   margin-left: auto;
   margin-right: auto;
+  max-width: 496px;
 }
 
 .hero-button {
-  display: flex;
+  display: block;
   align-items: center;
-  gap: 10px;
   border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
-  margin-left: auto;
   margin-right: auto;
-  white-space: nowrap;
+  margin-left: auto;
+  height: 56px;
+  min-width: 169px;
+ margin-top: 48px;
 }
 
 .hero-button {
