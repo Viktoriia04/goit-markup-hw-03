@@ -28,6 +28,11 @@ p {
   padding: 0 15px;
   margin: 0 auto;
 }
+
+.img {
+  display: block
+}
+
 /* header */
 
 .header {
@@ -167,7 +172,7 @@ padding: 120px 0;
 .adventages-item {
   width: calc((100% - 72px) / 4);
 }
-.adventages-h {
+.adventages-subtitle {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -176,7 +181,7 @@ padding: 120px 0;
   color: #2e2f42;
   margin-bottom: 8px;
 }
-.adventages-p {
+.adventages-text {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -186,9 +191,9 @@ padding: 120px 0;
 }
 .team-section {
   background: #f4f4fd;
-  
+  padding: 120px 0;
 }
-.team-h2 {
+.team-title {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
@@ -197,11 +202,29 @@ padding: 120px 0;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  min-width: 162px;
+  padding-bottom:  72px;
+  
 }
-.team-section li {
+.team-list {
   background: #fff;
+  display: flex;
 }
-.team-section h3 {
+
+.team-item {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+    width: 264px;
+    height: 380px;
+}
+.team-container{
+  padding: 32px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.team-subtitle {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -209,15 +232,18 @@ padding: 120px 0;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  text-align: center;
+  padding-bottom: 8px;
 }
 
-.team-section p {
+.team-text {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  text-align: center;
 }
 
 .portfolio-section h2 {
