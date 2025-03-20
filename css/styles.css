@@ -30,7 +30,7 @@ p {
 }
 
 .img {
-  display: block
+  display: block;
 }
 
 /* header */
@@ -161,8 +161,8 @@ p {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.adventages-section{
-padding: 120px 0;
+.adventages-section {
+  padding: 120px 0;
 }
 
 .adventages-list {
@@ -204,7 +204,6 @@ padding: 120px 0;
   color: #2e2f42;
   min-width: 162px;
   margin-bottom: 72px;
-  
 }
 .team-list {
   background: #fff;
@@ -215,11 +214,11 @@ padding: 120px 0;
 .team-item {
   width: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
-    width: 264px;
-    height: 380px;
+  padding: 0px 0px 32px 0px;
+  width: 264px;
+  height: 380px;
 }
-.team-container{
+.team-container {
   padding: 32px 0;
   align-items: center;
   justify-content: center;
@@ -234,7 +233,7 @@ padding: 120px 0;
   text-transform: capitalize;
   color: #2e2f42;
   text-align: center;
-  margin-bottom: 8px
+  margin-bottom: 8px;
 }
 
 .team-text {
@@ -246,8 +245,23 @@ padding: 120px 0;
   color: #434455;
   text-align: center;
 }
+.portfolio-section {
+  padding: 120px 0;
+}
 
-.portfolio-section h2 {
+.portfolio-title{
+  min-width: 218px;
+  margin-bottom: 72px;
+}
+
+.portfolio-list {
+  display: flex;
+  row-gap: 48px;
+  column-gap: 24px;
+  flex-wrap: wrap;
+}
+
+.portfolio-title {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
@@ -257,8 +271,11 @@ padding: 120px 0;
   text-transform: capitalize;
   color: #2e2f42;
 }
+.portfolio-container{
+  padding: 32px 0;
+}
 
-.portfolio-section h3 {
+.portfolio-subtitle {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -266,9 +283,10 @@ padding: 120px 0;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
-.portfolio-section p {
+.portfolio-text {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
